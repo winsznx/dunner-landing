@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Ticker from "./components/Ticker";
 import Stat from "./components/Stat";
 import HowItWorks from "./components/HowItWorks";
+import DemoSection from "./components/DemoSection";
 import VoiceSection from "./components/VoiceSection";
 import StripeActions from "./components/StripeActions";
 import TrustBar from "./components/TrustBar";
@@ -19,6 +20,7 @@ export default function Home() {
       <Ticker />
       <Stat />
       <HowItWorks />
+      <DemoSection />
       <VoiceSection />
       <StripeActions />
       <TrustBar />
