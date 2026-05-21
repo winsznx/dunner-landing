@@ -17,10 +17,16 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Dunner — When payments fail, Dunner calls.",
   description: "The only recovery tool that sounds like you — and only charges when it works.",
+  twitter: {
+    card: "summary_large_image",
+    title: "Dunner — When payments fail, Dunner calls.",
+    description: "Your cloned voice. Live Stripe actions. A fee only when it works.",
+  },
   openGraph: {
     title: "Dunner — When payments fail, Dunner calls.",
     description: "Voice-native failed payment recovery for SaaS. Your cloned voice. Live Stripe actions. A fee only when it works.",
     type: "website",
+    locale: "en_US",
   },
 };
 
