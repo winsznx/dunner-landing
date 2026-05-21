@@ -8,9 +8,10 @@ export default function Footer() {
         <Image
           src="/images/logo.png"
           alt="Dunner"
-          width={90}
-          height={28}
-          className="h-6 w-auto object-contain opacity-60"
+          width={432}
+          height={86}
+          className="opacity-50"
+          style={{ height: "24px", width: "auto" }}
         />
 
         {/* Links */}

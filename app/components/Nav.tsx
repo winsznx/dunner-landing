@@ -22,13 +22,13 @@ export default function Nav() {
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center">
           <Image
             src="/images/logo.png"
             alt="Dunner"
-            width={120}
-            height={36}
-            className="h-8 w-auto object-contain"
+            width={432}
+            height={86}
+            style={{ height: "32px", width: "auto" }}
             priority
           />
         </div>
