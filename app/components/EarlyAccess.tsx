@@ -22,17 +22,17 @@ export default function EarlyAccess() {
           Your next failed invoice should not become churn.
         </h2>
         <p className="text-[#A0A0AB] text-lg mb-12">
-          No monthly fee. Connects to Stripe in minutes.
+          Enter your email and we&rsquo;ll send you a link to the app.
         </p>
 
         {submitted ? (
           <div className="bg-[#1A1A1E] border border-[#10B981]/30 rounded-2xl px-8 py-10">
             <div className="w-2 h-2 rounded-full bg-[#10B981] mx-auto mb-4 pulse-ring" />
             <p className="text-[#EEEEEF] font-semibold text-lg mb-2">
-              You&rsquo;re in.
+              Check your inbox.
             </p>
             <p className="text-[#A0A0AB] text-sm">
-              We&rsquo;ll reach out when Dunner is ready for your Stripe account.
+              We sent a link to <span className="text-[#EEEEEF]">{email}</span>. Open it on your phone to get started.
             </p>
           </div>
         ) : (
